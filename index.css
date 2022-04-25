@@ -1,0 +1,328 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+  }
+  html,
+body {
+  width: 100%;
+}
+
+.mobile_main_page {
+  background-image: url("img/images/bg_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 50px;
+  height: 80vh;
+}
+
+.desk_nav {
+  display: none;
+}
+
+.desk_menu {
+  display: none;
+}
+
+/* mobile menu css */
+.show {
+  display: block;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.ul_list {
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  padding: 1rem;
+  text-decoration: none;
+  height: 320vh;
+  background-color: black;
+  z-index: 5;
+  position: fixed;
+}
+
+.ul_list .desk_menu_list {
+  list-style: none;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 55px;
+}
+
+.ul_list .desk_menu_list a {
+  color: white;
+}
+
+.expand {
+  height: 100vh;
+  margin: 0;
+  padding: 2.5rem 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.close_show {
+  position: absolute;
+  font-size: 30px;
+  color: #d3d3d3;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.web {
+  display: none;
+}
+
+nav a img.humber {
+  padding: 20px;
+  color: white;
+}
+
+.hero_intro {
+  display: flex;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  color: #fff;
+  padding: 19px;
+  /* padding-top: 19%; */
+  width: 100%;
+}
+
+.hello_head {
+  font-family: 'poppins', sans-serif;
+  font-size: 30px;
+  width: 97%;
+}
+
+.conference_heading {
+  font-size: 41px;
+  width: 100%;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.mobile_para_1 {
+  font-size: 25px;
+  line-height: 20px;
+  color: #1b0202;
+  width: 50%;
+  padding-left: 14px;
+}
+
+.dates {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5px;
+  width: inherit;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.dat_1 {
+  font-size: 24px;
+}
+
+.dat_para {
+  font-size: 17px;
+}
+
+.program_main_sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("img/images/close_bg.png");
+  background-repeat: repeat;
+  padding: 20px;
+  gap: 20px;
+}
+
+.main_pro {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.pro_heading {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+}
+
+.main_hr {
+  width: 24%;
+  height: 0;
+  color: #ec5242;
+  border: 1px solid;
+  margin-left: 39%;
+  margin-top: 9px;
+}
+
+.programs {
+  background: #272a31;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.program_img1 {
+  width: 30%;
+  height: 50px;
+}
+
+.program_head {
+  font-size: 25px;
+  font-weight: 300;
+  color: #ec5242;
+}
+
+.program_para {
+  font-size: 20px;
+  width: 87%;
+  color: #ffff;
+}
+
+.btn_10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reserve_sport {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reserve_btn {
+  background-color: #ec5242;
+  color: #fff;
+  padding: 20px;
+  border: 0;
+  width: 221px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 47px;
+}
+
+.reserve_btn1 {
+  display: none;
+}
+
+.speakers_section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.speaker_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.span_speaker {
+  display: flex;
+  flex-direction: row;
+  gap: 42px;
+}
+
+.speaker_details {
+  gap: 20px;
+}
+
+.speaker_img {
+  width: 134px;
+}
+
+.speaker_name {
+  color: #272a31;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+}
+
+.speaker_infor {
+  color: #ec5242;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+}
+
+.para_speaker {
+  font-size: 15px;
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+}
+
+.main_speakers {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.spk_heading {
+  font-size: 30px;
+  color: #272a31;
+  font-weight: 900;
+  text-align: center;
+}
+
+.spk_hr {
+  width: 24%;
+  height: 0;
+  color: #ec5242;
+  border: 1px solid;
+  margin-left: 39%;
+  margin-top: 9px;
+}
+
+.view_more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.see_more_btn {
+  background-color: #fff;
+  border: 1px solid  #272a31;
+  padding: 15px;
+  width: 321px;
+  font-size: 30px;
+}
+
+.drop_see_more {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.about_partners {
+  display: none;
+}
+
+.footer {
+  display: none;
+}
