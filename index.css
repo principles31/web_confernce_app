@@ -13,6 +13,7 @@ body {
   background-image: url("img/images/bg_1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   width: 100%;
   padding-bottom: 50px;
   height: 80vh;
@@ -20,11 +21,11 @@ body {
 
 .desk_nav {
   display: none;
-}
+} 
 
 .desk_menu {
   display: none;
-}
+} 
 
 /* mobile menu css */
 .show {
@@ -33,7 +34,7 @@ body {
 }
 
 .hidden {
-  display: none;
+  display: none; 
 }
 
 .ul_list {
@@ -91,6 +92,7 @@ nav a img.humber {
 
 .hero_intro {
   display: flex;
+  flex-direction: column;
 }
 
 .headings {
@@ -160,7 +162,7 @@ nav a img.humber {
 }
 
 .pro_heading {
-  font-size: 30px;
+  font-size: 20px;
   color: #fff;
   font-weight: 900;
   text-align: center;
@@ -186,7 +188,7 @@ nav a img.humber {
 }
 
 .program_img1 {
-  width: 30%;
+  width: 10%;
   height: 50px;
 }
 
