@@ -12,13 +12,13 @@ const speakersInforArray = [
       work: 'He helps build serverless integrations for WordPress',
     },
     {
-      image: 'img/spk/James_Bender.jpg',
+      image: 'img/spk/James Bender.jpg',
       name: 'Nicolas Fränkel',
       details: 'Developer Advocate',
       work: 'Currently working for Hazelcast. Also double as a teacher in universities and higher education schools, a trainer and triples as a book author.s',
     },
     {
-      image: 'img/spk/John Walker.jpg',
+      image: 'img/spk/John Walker.png',
       name: 'Facundo Giuliani',
       details: 'Developer Relations Engineer',
       work: 'Full Stack Developer. Auth0 Ambassador. Prisma Ambassador. Cloudinary Media Developer Expert. GitKraken Ambassador. He is also an open-source contributor',
@@ -36,3 +36,37 @@ const speakersInforArray = [
       work: 'He is a Cloud Solutions Architect and.NET Software Engineer',
     },
 ];
+
+for (let i = 0; i < speakersInforArray.length; i += 1) {
+    const speakerSection = document.querySelector('.speakers_section');
+    const cardContainer = document.createElement('div');
+    cardContainer.setAttribute('class', 'card_container');
+    speakerSection.appendChild(cardContainer);
+    const speakerCard = document.createElement('div');
+    speakerCard.setAttribute('class', 'speaker_cards');
+    const spanSpeaker = document.createElement('div');
+    spanSpeaker.setAttribute('class', 'span_speaker');
+    const image = document.createElement('img');
+    image.setAttribute('class', 'speaker_img');
+    image.src = `${speakersInforArray[i].image}`;
+    spanSpeaker.appendChild(image);
+    const speakerDetails = document.createElement('div');
+    speakerDetails.setAttribute('class', 'speaker_details');
+    const speakerName = document.createElement('h5');
+    speakerName.setAttribute('class', 'speaker_name');
+    speakerName.innerText = `${speakersInforArray[i].name}`;
+    speakerDetails.appendChild(speakerName);
+    const speakerInfor = document.createElement('h5');
+    speakerInfor.setAttribute('class', 'speaker-infor');
+    speakerInfor.innerText = `${speakersInforArray[i].details}`;
+    speakerDetails.appendChild(speakerInfor);
+    const speakerPara = document.createElement('p');
+    speakerPara.setAttribute('class', 'para_speaker');
+    speakerPara.innerText = `${speakersInforArray[i].work}`;
+    speakerDetails.appendChild(speakerPara);
+    spanSpeaker.appendChild(speakerDetails);
+    speakerCard.appendChild(spanSpeaker);
+  
+    // speakerSection.appendChild(mainSpeakers);
+    cardContainer.appendChild(speakerCard);
+  }
