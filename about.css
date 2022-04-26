@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .about {
+    background-image: url("img/images/mobile_intro_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .desk-nav {
+    display: none;
+  }
+  
+  .first-about-nav {
+    display: none;
+  }
+  
+  .desk-menu-list1 {
+    list-style: none;
+  }
+  
+  .desk-menu {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+  }
