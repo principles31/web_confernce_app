@@ -1,10 +1,11 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-  }
-  html,
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
 body {
   width: 100%;
 }
@@ -21,11 +22,11 @@ body {
 
 .desk_nav {
   display: none;
-} 
+}
 
 .desk_menu {
   display: none;
-} 
+}
 
 /* mobile menu css */
 .show {
@@ -34,7 +35,7 @@ body {
 }
 
 .hidden {
-  display: none; 
+  display: none;
 }
 
 .ul_list {
@@ -97,11 +98,10 @@ nav a img.humber {
 
 .headings {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   color: #fff;
   padding: 19px;
-  /* padding-top: 19%; */
   width: 100%;
 }
 
@@ -310,7 +310,7 @@ nav a img.humber {
 
 .see_more_btn {
   background-color: #fff;
-  border: 1px solid  #272a31;
+  border: 1px solid #272a31;
   padding: 15px;
   width: 321px;
   font-size: 30px;
