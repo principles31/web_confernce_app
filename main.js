@@ -30,10 +30,10 @@ const speakersInforArray = [
   work: 'Fabian Gosebrink ist Pluralsight Autor,Microsoft MVP und ASP.NET Core & Angular Webentwickler',
   },
   {
-  image: 'img/spk/Roy Derks.jpg',
-  name: 'George Kosmidis',
-  details: 'Cloud Solutions Architect',
-  work: 'He is a Cloud Solutions Architect and.NET Software Engineer',
+ image: 'img/spk/Roy Derks.jpg',
+ name: 'George Kosmidis',
+ details: 'Cloud Solutions Architect',
+ work: 'He is a Cloud Solutions Architect and.NET Software Engineer',
   },
 ];
 
