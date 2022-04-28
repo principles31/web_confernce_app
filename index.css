@@ -17,7 +17,7 @@ body {
   background-position: center;
   width: 100%;
   padding-bottom: 50px;
-  height: 80vh;
+  height: 100vh;
 }
 
 .desk_nav {
@@ -28,15 +28,19 @@ body {
   display: none;
 }
 
+.closeMenu {
+  position: absolute;
+}
+
 /* mobile menu css */
 .show {
   display: block;
   width: 100%;
 }
 
-.hidden {
+/* .hidden {
   display: none;
-}
+} */
 
 .ul_list {
   top: 0;
@@ -94,8 +98,7 @@ nav a img.humber {
 .hero_intro {
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
-}
+} 
 
 .headings {
   display: flex;
@@ -120,12 +123,13 @@ nav a img.humber {
   color: #fff;
 }
 
-.mobile_para_1 {
-  font-size: 25px;
-  line-height: 20px;
-  color: #1b0202;
-  width: 50%;
-  padding-left: 14px;
+.first_para {
+      /* position: absolute; */
+      font-size: 25px;
+      line-height: 20px;
+      color: #1b0202;
+      width: 100%;
+      padding-left: 14px;
 }
 
 .dates {
@@ -148,9 +152,9 @@ nav a img.humber {
 
 .program_main_sec {
   display: flex;
+  background-image: url("img/images/close_bg.png"); 
   flex-direction: column;
   justify-content: center;
-  background-image: url("img/images/close_bg.png");
   background-repeat: repeat;
   padding: 20px;
   gap: 20px;
