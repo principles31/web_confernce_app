@@ -53,7 +53,7 @@
   width: 100%;
   padding: 1rem;
   text-decoration: none;
-  background-color: #d3d3d3;
+  background-color: #D3D3D3;
   height: 100vh;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .ul_list .desk_menu_list a {
-  color: #d3d3d3;
+  color: black;
 }
 
 .expand {
@@ -83,11 +83,11 @@
   left: 23px;
   top: 0;
   font-size: 53px;
-  color: #d3d3d3;
+  color: black;
 }
 
 .about_nav {
-  color: #272a31;
+  color: #272A31;
   position: fixed;
   height: 60px;
   width: 100%;
@@ -110,13 +110,13 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  padding-top: 105px;
-  color: #ec5242;
+  padding-top: 85px;
+  color: #EC5242;
   overflow-x: hidden;
 }
 
 .about_welcome_heading {
-  color: #ec5242;
+  color: #EC5242;
   font-size: 29px;
   width: 100%;
   font-family: 'Lato', sans-serif;
@@ -127,7 +127,7 @@
   font-size: 3rem;
   width: 67%;
   font-family: 'poppins', sans-serif;
-  color: #ec5242;
+  color: #EC5242;
   font-weight: 900;
   line-height: 49px;
   padding-top: 100px;
@@ -162,14 +162,14 @@
 
 .contact_info {
   font-size: 22px;
-  color: #272a31;
+  color: #272A31;
   width: 80%;
   font-weight: 500;
 }
 
 .about_email {
   font-size: 22px;
-  color: #272a31;
+  color: #272A31;
   font-weight: 900;
   text-decoration: underline;
   padding-bottom: 30px;
@@ -202,7 +202,7 @@
 .about_hr {
   width: 24%;
   height: 0;
-  color: #ec5242;
+  color: #EC5242;
   border: 1px solid;
   margin-left: 39%;
   margin-top: 9px;
@@ -212,7 +212,7 @@
   font-size: 20px;
   font-family: 'Lato', sans-serif;
   line-height: 29px;
-  color: #272a31;
+  color: #272A31;
   font-weight: 900;
   width: 80%;
 }
@@ -222,7 +222,7 @@
   justify-content: center;
   align-items: center;
   width: inherit;
-  border: 1px solid #d3d3d3;
+  border: 1px solid #D3D3D3;
 }
 
 .logo {
@@ -254,7 +254,7 @@
 .history_hr {
   width: 24%;
   height: 0;
-  color: #ec5242;
+  color: #EC5242;
   border: 1px solid;
   margin-left: 39%;
   margin-top: 9px;
@@ -263,7 +263,7 @@
 .history_description {
   font-size: 20px;
   line-height: 29px;
-  color: #272a31;
+  color: #272A31;
   font-weight: 900;
   font-family: 'Lato', sans-serif;
   width: 70%;
@@ -280,11 +280,11 @@
   align-items: center;
   flex-direction: column;
   padding-top: 20px;
-  gap: 50px;
+  gap: 20px;
 }
 
 .hist_img {
-  width: 400px;
+  width: 328px;
 }
 
 .overlay img.hist_img::before {
@@ -308,13 +308,24 @@
   text-align: center;
 }
 
+.history_para {
+  font-size: 27px;
+  line-height: 29px;
+  color: #fff;
+  font-weight: 800;
+  font-family: 'Lato', sans-serif;
+  width: 68%;
+  margin-top: -143px;
+  text-align: center;
+}
+
 .year_hist {
   display: block;
   text-align: center;
 }
 
 .about_partners {
-  background-color: #272a31;
+  background-color: #272A31;
 }
 
 .main_partner {
@@ -328,7 +339,7 @@
 .partner_hr {
   width: 24%;
   height: 0;
-  color: #ec5242;
+  color: #EC5242;
   border: 1px solid;
   margin-left: 39%;
   margin-top: 9px;
@@ -373,20 +384,19 @@
 }
 
 .rights {
-  color: #272a31;
+  color: #272A31;
   font-size: 12px;
   font-weight: 900;
   font-family: 'Lato', sans-serif;
 }
 
 .para_rights {
-  color: #272a31;
+  color: #272A31;
   font-size: 12px;
   font-family: 'Lato', sans-serif;
 }
 
 /* about page media queries */
-
 @media (min-width: 768px) {
   .desk_nav {
     padding-right: 270px;
@@ -394,7 +404,7 @@
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
-    background-color: #272a31;
+    background-color: #272A31;
     height: 40px;
     width: 100%;
     text-decoration: none;
@@ -437,7 +447,7 @@
   }
 
   .desk_menu_list a {
-    color: #d3d3d3;
+    color: #D3D3D3;
     text-decoration: none;
     font-size: 16px;
   }
@@ -447,16 +457,16 @@
   }
 
   .about_red a {
-    color: #ec5242;
+    color: #EC5242;
   }
 
   .border_item {
-    border: 2px solid #ec5242;
+    border: 2px solid #EC5242;
     padding: 5px;
   }
 
   .border_item a {
-    color: #ec5242;
+    color: #EC5242;
   }
 
   .web {
@@ -467,6 +477,10 @@
   }
 
   .humber {
+    display: none;
+  }
+
+  .fa-times {
     display: none;
   }
 
@@ -508,7 +522,7 @@
     text-align: center;
   }
 
-  .history-description {
+  .history_description {
     text-align: center;
   }
 
@@ -524,14 +538,28 @@
   }
 
   .hist_img {
-    width: 53%;
+    width: 47%;
     height: 350px;
   }
 
   .history_para {
-    margin-left: -466px;
-    width: 43%;
+    margin-left: -524px;
+    width: 35%;
     margin-top: 175px;
+    position: absolute;
+  }
+
+  .history-para {
+    margin-left: 590px;
+    position: absolute;
+    font-size: 27px;
+    line-height: 29px;
+    color: #fff;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+    width: 34%;
+    margin-top: 165px;
+    text-align: center;
   }
 
   .about_partners {
@@ -539,7 +567,7 @@
   }
 
   .footer {
-    background-color: #272a31;
+    background-color: #272A31;
     display: flex;
     flex-direction: row;
     justify-content: center;
