@@ -53,7 +53,7 @@
   width: 100%;
   padding: 1rem;
   text-decoration: none;
-  background-color: #D3D3D3;
+  background-color: hsl(0, 0%, 83%);
   height: 100vh;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .about_nav {
-  color: #272A31;
+  color: hsl(222, 11%, 17%);
   position: fixed;
   height: 60px;
   width: 100%;
@@ -111,12 +111,12 @@
   flex-direction: column;
   gap: 20px;
   padding-top: 85px;
-  color: #EC5242;
+  color: hsl(6, 82%, 59%);
   overflow-x: hidden;
 }
 
 .about_welcome_heading {
-  color: #EC5242;
+  color: hsl(6, 82%, 59%);
   font-size: 29px;
   width: 100%;
   font-family: 'Lato', sans-serif;
@@ -127,7 +127,7 @@
   font-size: 3rem;
   width: 67%;
   font-family: 'poppins', sans-serif;
-  color: #EC5242;
+  color: hsl(6, 82%, 59%);
   font-weight: 900;
   line-height: 49px;
   padding-top: 100px;
@@ -162,14 +162,14 @@
 
 .contact_info {
   font-size: 22px;
-  color: #272A31;
+  color: hsl(222, 11%, 17%);
   width: 80%;
   font-weight: 500;
 }
 
 .about_email {
   font-size: 22px;
-  color: #272A31;
+  color: hsl(222, 11%, 17%);
   font-weight: 900;
   text-decoration: underline;
   padding-bottom: 30px;
@@ -202,7 +202,7 @@
 .about_hr {
   width: 24%;
   height: 0;
-  color: #EC5242;
+  color: hsl(6, 82%, 59%);
   border: 1px solid;
   margin-left: 39%;
   margin-top: 9px;
@@ -212,7 +212,7 @@
   font-size: 20px;
   font-family: 'Lato', sans-serif;
   line-height: 29px;
-  color: #272A31;
+  color: hsl(222, 11%, 17%);
   font-weight: 900;
   width: 80%;
 }
@@ -222,7 +222,7 @@
   justify-content: center;
   align-items: center;
   width: inherit;
-  border: 1px solid #D3D3D3;
+  border: 1px solid hsl(0, 0%, 83%);
 }
 
 .logo {
@@ -254,7 +254,7 @@
 .history_hr {
   width: 24%;
   height: 0;
-  color: #EC5242;
+  color: hsl(6, 82%, 59%);
   border: 1px solid;
   margin-left: 39%;
   margin-top: 9px;
@@ -263,7 +263,7 @@
 .history_description {
   font-size: 20px;
   line-height: 29px;
-  color: #272A31;
+  color: hsl(222, 11%, 17%);
   font-weight: 900;
   font-family: 'Lato', sans-serif;
   width: 70%;
@@ -308,24 +308,13 @@
   text-align: center;
 }
 
-.history_para {
-  font-size: 27px;
-  line-height: 29px;
-  color: #fff;
-  font-weight: 800;
-  font-family: 'Lato', sans-serif;
-  width: 68%;
-  margin-top: -143px;
-  text-align: center;
-}
-
 .year_hist {
   display: block;
   text-align: center;
 }
 
 .about_partners {
-  background-color: #272A31;
+  background-color: hsl(222, 11%, 17%);
 }
 
 .main_partner {
@@ -339,7 +328,7 @@
 .partner_hr {
   width: 24%;
   height: 0;
-  color: #EC5242;
+  color: hsl(6, 82%, 59%);
   border: 1px solid;
   margin-left: 39%;
   margin-top: 9px;
@@ -384,14 +373,14 @@
 }
 
 .rights {
-  color: #272A31;
+  color: hsl(222, 11%, 17%);
   font-size: 12px;
   font-weight: 900;
   font-family: 'Lato', sans-serif;
 }
 
 .para_rights {
-  color: #272A31;
+  color: hsl(222, 11%, 17%);
   font-size: 12px;
   font-family: 'Lato', sans-serif;
 }
@@ -404,7 +393,7 @@
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
-    background-color: #272A31;
+    background-color: hsl(222, 11%, 17%);
     height: 40px;
     width: 100%;
     text-decoration: none;
@@ -447,7 +436,7 @@
   }
 
   .desk_menu_list a {
-    color: #D3D3D3;
+    color: hsl(0, 0%, 83%);
     text-decoration: none;
     font-size: 16px;
   }
@@ -457,16 +446,16 @@
   }
 
   .about_red a {
-    color: #EC5242;
+    color: hsl(6, 82%, 59%);
   }
 
   .border_item {
-    border: 2px solid #EC5242;
+    border: 2px solid hsl(6, 82%, 59%);
     padding: 5px;
   }
 
   .border_item a {
-    color: #EC5242;
+    color: hsl(6, 82%, 59%);
   }
 
   .web {
@@ -567,7 +556,7 @@
   }
 
   .footer {
-    background-color: #272A31;
+    background-color: hsl(222, 11%, 17%);
     display: flex;
     flex-direction: row;
     justify-content: center;
