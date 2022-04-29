@@ -110,7 +110,7 @@
   align-items: center;
   flex-direction: column;
   gap: 20px;
-  padding-top: 85px;
+  padding-top: 105px;
   color: #ec5242;
   overflow-x: hidden;
 }
@@ -278,9 +278,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   padding-top: 20px;
-  gap: 20px;
+  gap: 50px;
 }
 
 .hist_img {
