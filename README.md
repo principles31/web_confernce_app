@@ -36,10 +36,10 @@ To get a local copy up and running,follow these simple steps
 - Open index.html file in a browser of your choice
 
 ## Live Demo (if available)
-Live Demo Link
+[Live Demo Link] ( https://principles31.github.io/module1_capstone_project/ )
 
 ## video (documentation)
-Check the video here
+Check the video here(https://www.loom.com/share/3ee0fc6b2f4749b4b66363894f451063)
 
 ## Authors
 
@@ -59,7 +59,7 @@ Give a star if you like this project!
 ## Acknowledgments
 
 - Microverse
-- Original design idea by Cindy Shin in Behance
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
 - Hat tip to anyone whose code was used
 - Inspiration
 - Icon 8 images
@@ -68,4 +68,5 @@ _ http://pexels.com/
 - https://www.web-developer-conference.de/programm-2/#/
 
 ## memo License
-This project is MIT licensed.
+
+This project is [MIT](./MIT.md) licensed.
