@@ -11,7 +11,7 @@ body {
 }
 
 .mobile_main_page {
-  background-image: url("img/images/pexels_nekrashevich.jpg");
+  background-image: url("img/images/pexels-life.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -36,6 +36,10 @@ body {
 .show {
   display: block;
   width: 100%;
+}
+
+.hidden {
+  display: none;
 }
 
 .ul_list {
@@ -90,6 +94,7 @@ body {
 nav a img.humber {
   padding: 20px;
   color: white;
+  background-color: #fff;
 }
 
 .hero_intro {
@@ -123,7 +128,7 @@ nav a img.humber {
 .first_para {
   font-size: 25px;
   line-height: 20px;
-  color: #b60a0a;
+  color: #fff;
   width: 100%;
   padding-left: 14px;
 }
@@ -348,10 +353,10 @@ nav a img.humber {
     align-items: center;
     gap: 20px;
     background-color: hsl(222, 11%, 17%);
-    height: 40px;
+    height: 50px;
     text-decoration: none;
     list-style: none;
-    padding-right: 211px;
+    padding-right: 170px;
   }
 
   .desk_menu_list1 a {
@@ -370,8 +375,8 @@ nav a img.humber {
     align-items: center;
     gap: 20px;
     padding-right: 150px;
-    background-color: #000;
-    height: 70px;
+    background-color: #fff;
+    height: 50px;
     text-decoration: none;
     list-style: none;
   }
@@ -386,7 +391,7 @@ nav a img.humber {
   }
 
   .desk_menu_list a {
-    color: #d3d3d3;
+    color: #000;
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
@@ -621,7 +626,8 @@ nav a img.humber {
     justify-content: center;
     align-items: center;
     height: 200px;
-    gap: 183px;
+    gap: 140px;
+    padding: 30px;
   }
 
   .logo_footer {
@@ -632,8 +638,8 @@ nav a img.humber {
   }
 
   .footer_img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 115px;
   }
 
   .rights {

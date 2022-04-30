@@ -89,7 +89,7 @@
 .about_nav {
   color: hsl(222, 11%, 17%);
   position: fixed;
-  height: 60px;
+  height: 50px;
   width: 100%;
   top: 0;
   left: 0;
@@ -117,20 +117,20 @@
 
 .about_welcome_heading {
   color: hsl(6, 82%, 59%);
-  font-size: 29px;
+  font-size: 34px;
   width: 100%;
   font-family: 'Lato', sans-serif;
-  font-weight: 900;
+  font-weight: 900
 }
 
 .about_second_heading {
   font-size: 3rem;
-  width: 67%;
+  width: 88%;
   font-family: 'poppins', sans-serif;
   color: hsl(6, 82%, 59%);
   font-weight: 900;
   line-height: 49px;
-  padding-top: 100px;
+  padding-top: 0px;
 }
 
 .about_description {
@@ -415,14 +415,14 @@
     align-items: center;
     gap: 20px;
     padding-right: 150px;
-    background-color: #000;
-    height: 70px;
+    background-color: #fff;
+    height: 50px;
     text-decoration: none;
     list-style: none;
   }
 
   .about_nav {
-    top: 40px;
+    top: 35px;
   }
 
   .desk_menu {
@@ -436,7 +436,7 @@
   }
 
   .desk_menu_list a {
-    color: hsl(0, 0%, 83%);
+    color: #000;
     text-decoration: none;
     font-size: 16px;
   }
@@ -485,8 +485,8 @@
   }
 
   .about_welcome_heading {
-    text-align: center;
-    padding-top: inherit;
+    padding-left: 160px;
+    padding-top: 70px;
   }
 
   .about_second_heading {

@@ -23,7 +23,6 @@ humbergur.addEventListener('click', () => {
   navbar.classList.add('expand');
   closeMenu.classList.add('close_show');
 
-//  listItems.forEach((item) => item.addEventListener('click', resetMobileMenu));
 });
 
 closeMenu.addEventListener('click', resetMenu);

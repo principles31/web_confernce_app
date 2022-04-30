@@ -67,6 +67,5 @@ for (let i = 0; i < speakersInforArray.length; i += 1) {
   spanSpeaker.appendChild(speakerDetails);
   speakerCard.appendChild(spanSpeaker);
 
-  // speakerSection.appendChild(mainSpeakers);
   cardContainer.appendChild(speakerCard);
 }
