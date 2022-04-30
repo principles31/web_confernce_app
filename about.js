@@ -21,8 +21,7 @@ humbergur.addEventListener('click', () => {
   humbergur.classList.add('hidden');
   menuList.classList.add('ul_list');
   navbar.classList.add('expand');
-  closeMenu.classList.add('close_show');
-
+  closeMenu.classList.add('close_show')
 });
 
 closeMenu.addEventListener('click', resetMenu);
